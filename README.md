@@ -1,7 +1,7 @@
 # aspectj-plugin
 plugin for aspectj
 ## Introduce
-Aspectj-Plugin has packaged code like...
+Aspectj-Plugin has packaged code like
 ```groovy
 variants.all { variant ->
             def javaCompile = variant.javaCompile
@@ -39,17 +39,19 @@ variants.all { variant ->
         }
 ```
 So this plugin can save the time when you deploy the AOP program technology of Aspectj.
+That was the meaning of aspectj-plugin existence.
+**Takes full account of difference of application and library, plugin has judged the type of variant, so you can use it anywhere (module of application or library)**
 ## How to use
-clone this repsoitory and put the directory in your android project, and then config the maven repsoitory in your root project build.gradle or settings.gradle
+clone this repsoitory and put the directory in your android project, and then config the aspectj-plugin repsoitory in your root project build.gradle or settings.gradle
 ```groovy
 repsoitory{
   maven{ url uri("../YourProjectName/aspectj-plugin")}
 }
 ```
-Well, after configs aspectj-plugin repsoitory, we will apply plugin like
+Well, after configs aspectj-plugin repsoitory, we will apply plugin, code like
 ```groovy
 apply plugin: "aspectj"
 ```
-## Wishes
+## Best Wishes
 Ok, that what should we do!
-Enjoy!
+Enjoy!:)
