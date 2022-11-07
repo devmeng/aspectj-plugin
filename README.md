@@ -40,7 +40,7 @@ variants.all { variant ->
 ```
 So this plugin can save the time when you deploy the AOP program technology of Aspectj.
 That was the meaning of aspectj-plugin existence.
-**Takes full account of difference of application and library, plugin has judged the type of variant, so you can use it anywhere (module of application or library)**
+**And take consideration of difference of application and library, plugin has judged the type of variant, so you can use it anywhere (module of application or library)**
 ## How to use
 clone this repsoitory and put the directory in your android project, and then config the aspectj-plugin repsoitory in your root project build.gradle or settings.gradle
 ```groovy
