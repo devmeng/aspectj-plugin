@@ -1,5 +1,5 @@
 # aspectj-plugin
-plugin for aspectj
+plugin for packaging function of message handler
 ## Introduce
 Aspectj-Plugin has packaged code like
 ```groovy
@@ -7,7 +7,7 @@ variants.all { variant ->
             def javaCompile = variant.javaCompile
             javaCompile.doLast {
                 String[] args = ["-showWeaveInfo",
-                                 "-1.8",//对应插件module声明的Java版本
+                                 "-1.8",//the java version of module
                                  "-inpath", javaCompile.destinationDir.toString(),
                                  "-aspectpath", javaCompile.classpath.asPath,
                                  "-d", javaCompile.destinationDir.toString(),
