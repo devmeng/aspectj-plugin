@@ -45,7 +45,7 @@ That was the meaning of aspectj-plugin existence.
 First, you should clone this repsoitory and put the directory in your android project, and then config the aspectj-plugin repsoitory in your project's root **build.gradle** or **settings.gradle**
 ```groovy
 repsoitory{
-  maven{ url uri("$rootDir/aspectj-plugin")} //or locate to "https://github.com/devmeng/aspectj-plugin/tree/master"
+     maven{ url uri("$rootDir/aspectj-plugin")} //or locate to "https://github.com/devmeng/aspectj-plugin/tree/master"
 }
 ```
 After that, I wish you to add classpath under your project's root **build.gradle**, code like
@@ -64,4 +64,4 @@ apply plugin: "aspectj" //or in action scope of plugins, like: id 'aspectj'
 ```
 ## Best Wishes
 Ok, that what should we do!
-Enjoy!:)
+Enjoy ;)
