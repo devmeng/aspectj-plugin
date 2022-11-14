@@ -52,7 +52,6 @@ After that, I wish you to add classpath under your project's root **build.gradle
 ```groovy
 buildscript{
      dependencies{
-            ...
             classpath "com.devmeng.plugin:aspectj-plugin:1.0.0"
      }
 }
