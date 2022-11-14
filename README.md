@@ -42,7 +42,7 @@ So this plugin can save the time when you deploy the AOP program technology of A
 That was the meaning of aspectj-plugin existence.
 **And take consideration of difference of application and library, plugin has judged the type of variant, so you can use it anywhere (module of application or library)**
 ## How to use
-First, you should clone this repsoitory and put the directory in your android project, and then config the aspectj-plugin repsoitory in your project's root **build.gradle** or **settings.gradle**
+First, you should clone this repository and put the directory in your android project, and then config the aspectj-plugin repository in your project's root **build.gradle** or **settings.gradle**
 ```groovy
 repsoitory{
      maven{ url uri("$rootDir/aspectj-plugin")} //or locate to "https://github.com/devmeng/aspectj-plugin/tree/master"
@@ -58,7 +58,7 @@ buildscript{
 }
 
 ```
-Well, after configs aspectj-plugin repsoitory, we will apply plugin under build.gradle of module, like
+Well, after configs aspectj-plugin repository, we will apply plugin under build.gradle of module, like
 ```groovy
 apply plugin: "aspectj" //or in action scope of plugins, like: id 'aspectj'
 ```
